@@ -3,10 +3,10 @@
 @section('content')
     <article>
         <h1>{{$post->title}} </h1>
-        <div>{{$post->body}}</div>
+        <p>{{$post->body}}</div>
     </article>
 
-    <a href="\">back</a>
+    <a class="back" href="\">back</a>
 
 
 @endsection

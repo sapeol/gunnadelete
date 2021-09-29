@@ -1,12 +1,30 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'alfarn', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 600px;
     margin: auto;
+    background: rgb(39, 38, 38);
+
+
+}
+h1 a, h1{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2em;
+
+
+}
+h1 a:hover{
+
+    text-decoration: rgb(32, 102, 143) wavy underline;
 
 }
 
 p{
     line-height: 1.7em;
+    font-size: 1.5em;
+    line-break: anywhere;
+    color: white;
 }
 
 
@@ -14,4 +32,10 @@ article + article{
     padding-top: 3rem;
     margin-top: 3rem;
     border-top: 1px gray solid;
+}
+.back{
+    text-decoration: none;
+    font-size: 1.4em;
+    color: yellow;
+
 }

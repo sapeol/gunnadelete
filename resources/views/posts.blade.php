@@ -5,9 +5,9 @@
 
         <article class="{{$loop->odd ? "hola senor" : "hello there"}}">
 
-            <h1><a href="/posts/{{$post->slug}}"> {{$post->title }}</a> </h1>
+            <h1><a href="/posts/{{$post->id}}"> {{$post->title }}</a> </h1>
             <span>{{$post->date}}</span>
-            <p><?= $post->body; ?></p>
+            <p><?= $post->excerpt; ?></p>
 
         </article>
     @endforeach

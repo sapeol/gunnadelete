@@ -28,10 +28,10 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('posts/{post}', function ($slug) {
+Route::get('posts/{post}', function ($id) {
     // FIND A POST BNY ITS SLUG AND PASS IT  TO VIEW CALLED SLUG
 
     return view('post', [
-        'post' =>  Post::find($slug)
+        'post' =>  Post::find($id)
     ]);
 });
